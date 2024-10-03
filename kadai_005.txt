@@ -1,0 +1,15 @@
+PS C:\Users\OYAKE KAORI\Desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/OYAKE KAORI/Desktop/git_challenge/.git/
+PS C:\Users\OYAKE KAORI\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\OYAKE KAORI\Desktop\git_challenge> git commit -m "追記: Hello, world!"
+[main (root-commit) 84c720a] 追記: Hello, world!
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\OYAKE KAORI\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\OYAKE KAORI\Desktop\git_challenge> git commit -m "こんにちは、世界！"
+[main 5cdad78] こんにちは、世界！
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\OYAKE KAORI\Desktop\git_challenge> git log --oneline
+5cdad78 (HEAD -> main) こんにちは、世界！
+84c720a 追記: Hello, world!
+PS C:\Users\OYAKE KAORI\Desktop\git_challenge> 
